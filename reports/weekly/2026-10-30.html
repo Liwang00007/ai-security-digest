@@ -3,150 +3,150 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="AI 安全周报试运行：2026 年 10 月 23 日至 30 日公开一手来源汇总。">
+  <meta name="description" content="科技与产业周报：互联网、金融、科技、AI 与机器人公开一手信息汇总。">
   <link rel="icon" href="data:,">
-  <title>AI 安全周报｜试运行｜2026-10-30</title>
+  <title>科技与产业周报｜2026-10-30</title>
   <style>
-    :root{--ink:#13233c;--muted:#53657d;--line:#dce5f0;--paper:#fff;--wash:#f4f7fb;--blue:#1a65bd;--blue-dark:#0d2d56;--p0:#c53b3b;--p0-bg:#fff4f4;--p1:#b77011;--p1-bg:#fff8ec;--shadow:0 12px 32px rgba(20,45,82,.09)}
-    *{box-sizing:border-box}body{margin:0;background:var(--wash);color:var(--ink);font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}.wrap{width:min(1080px,calc(100% - 40px));margin:0 auto}
-    .hero{color:#fff;background:linear-gradient(115deg,var(--blue-dark) 0%,var(--blue) 58%,#63a3dc 100%);padding:36px 0 52px}.hero a{color:#fff}.crumb{font-size:14px;opacity:.94}.pills{display:flex;flex-wrap:wrap;gap:8px;margin:27px 0 18px}.pill{display:inline-block;padding:3px 11px;border:1px solid rgba(255,255,255,.55);border-radius:99px;color:#eef8ff;font-size:13px}.hero h1{margin:0;font-size:clamp(32px,5vw,47px);letter-spacing:-.03em;line-height:1.2}.hero p{max-width:800px;margin:14px 0 0;color:#e0effd;font-size:17px}
-    main{padding:30px 0 54px}.notice{margin-bottom:23px;padding:15px 18px;border:1px solid #f0ca85;border-radius:12px;background:#fff9ea;color:#6d4a12}.notice strong{color:#7c4c00}.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:0 0 24px}.kpi{padding:18px 18px 16px;border:1px solid var(--line);border-radius:14px;background:var(--paper);box-shadow:0 5px 18px rgba(20,45,82,.04)}.kpi strong{display:block;font-size:28px;line-height:1.15;color:var(--blue-dark)}.kpi span{display:block;margin-top:5px;color:var(--muted);font-size:14px}
-    .panel{margin:21px 0;padding:28px;border:1px solid var(--line);border-radius:16px;background:var(--paper);box-shadow:var(--shadow)}.eyebrow{margin:0 0 7px;color:var(--blue);font-size:13px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}.panel h2{margin:0 0 14px;font-size:27px;line-height:1.3}.panel h3{margin:0 0 10px;font-size:20px;line-height:1.45}.summary{margin:0;font-size:19px;line-height:1.7}.themes{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.theme{padding:19px;border-radius:12px;background:#eef6ff}.theme h3{color:#0d417c}.theme p{margin:0;color:#35506f;font-size:15px}
-    .event{position:relative;margin:15px 0;padding:23px 24px;border:1px solid var(--line);border-left:5px solid var(--p1);border-radius:13px;background:linear-gradient(90deg,var(--p1-bg) 0,#fff 29%)}.event.p0{border-left-color:var(--p0);background:linear-gradient(90deg,var(--p0-bg) 0,#fff 29%)}.event-head{display:flex;align-items:flex-start;justify-content:space-between;gap:15px}.event h3{margin:0;font-size:21px;line-height:1.42}.priority{flex:0 0 auto;padding:3px 10px;border-radius:7px;background:var(--p1);color:#fff;font-size:12px;font-weight:800;letter-spacing:.06em}.p0 .priority{background:var(--p0)}.detail-grid{display:grid;grid-template-columns:1fr 1fr;gap:13px;margin-top:15px}.detail{padding:13px 15px;border-radius:10px;background:rgba(255,255,255,.78)}.detail.full{grid-column:1/-1}.detail b{display:block;margin-bottom:3px;color:#27476d;font-size:14px}.detail p{margin:0;color:#354861;font-size:15px}
-    .checklist{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.step{padding:20px;border-radius:12px;border:1px solid #cfe1f4;background:#f8fbff}.step .when{color:var(--blue);font-size:13px;font-weight:800;letter-spacing:.07em}.step h3{margin:7px 0}.step p{margin:0;color:var(--muted);font-size:15px}.watch{display:grid;grid-template-columns:1fr 1fr;gap:13px}.watch div{padding:16px;border-left:4px solid #5f94ca;background:#f6faff}.watch b{display:block;margin-bottom:4px}.watch span{color:var(--muted);font-size:15px}
-    .source-wrap{overflow-x:auto}.sources{width:100%;border-collapse:collapse;min-width:710px;font-size:14px}.sources th,.sources td{padding:11px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}.sources th{background:#edf4fb;color:#294b72}.sources td{color:#38516d}.sources tr:last-child td{border-bottom:0}.footer{padding:9px 0 44px;color:#61738a;font-size:14px;text-align:center}.footer a{font-weight:700}
-    @media(max-width:800px){.wrap{width:min(100% - 28px,1080px)}.hero{padding:28px 0 36px}.kpis{grid-template-columns:repeat(2,1fr)}.themes,.checklist{grid-template-columns:1fr}.panel{padding:20px}.detail-grid,.watch{grid-template-columns:1fr}.detail.full{grid-column:auto}.event{padding:19px}.event-head{display:block}.priority{display:inline-block;margin-bottom:9px}}@media(max-width:420px){.kpi strong{font-size:24px}.panel h2{font-size:24px}.summary{font-size:17px}}
+    :root{--ink:#14233d;--muted:#53657d;--line:#dbe5ef;--paper:#fff;--wash:#f4f7fb;--blue:#1766be;--navy:#0c2d56;--a:#9d3151;--a-bg:#fff4f6;--b:#a46411;--b-bg:#fff8e9;--mint:#eaf7f2;--lav:#f0f3ff;--shadow:0 12px 32px rgba(20,45,82,.09)}
+    *{box-sizing:border-box}body{margin:0;background:var(--wash);color:var(--ink);font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif}a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}.wrap{width:min(1100px,calc(100% - 40px));margin:0 auto}
+    .hero{padding:36px 0 54px;color:#fff;background:radial-gradient(circle at 89% 2%,rgba(105,200,225,.42),transparent 30%),linear-gradient(115deg,#092b52 0%,#1968bd 56%,#4a9ed7 100%)}.hero a{color:#fff}.crumb{font-size:14px;opacity:.95}.pills{display:flex;flex-wrap:wrap;gap:8px;margin:27px 0 18px}.pill{padding:4px 11px;border:1px solid rgba(255,255,255,.58);border-radius:99px;font-size:13px;color:#ecf8ff}.hero h1{margin:0;font-size:clamp(32px,5vw,48px);line-height:1.18;letter-spacing:-.03em}.hero p{max-width:820px;margin:15px 0 0;color:#e2f1ff;font-size:17px}
+    main{padding:30px 0 55px}.notice{margin-bottom:23px;padding:15px 18px;border:1px solid #f1cd88;border-radius:12px;background:#fff9eb;color:#704d16}.notice b{color:#784b00}.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:24px}.kpi{padding:18px;border:1px solid var(--line);border-radius:14px;background:var(--paper);box-shadow:0 5px 18px rgba(20,45,82,.04)}.kpi strong{display:block;font-size:28px;color:var(--navy);line-height:1.1}.kpi span{display:block;margin-top:7px;color:var(--muted);font-size:14px}
+    .panel{margin:21px 0;padding:28px;border:1px solid var(--line);border-radius:16px;background:var(--paper);box-shadow:var(--shadow)}.eyebrow{margin:0 0 7px;color:var(--blue);font-size:13px;font-weight:800;letter-spacing:.08em;text-transform:uppercase}.panel h2{margin:0 0 14px;font-size:27px;line-height:1.3}.lead{margin:0;font-size:19px;line-height:1.7}.tracks{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.track{padding:19px;border-radius:12px;background:#eef6ff}.track:nth-child(2){background:var(--mint)}.track:nth-child(3){background:var(--lav)}.track h3{margin:0 0 8px;color:#164778;font-size:18px}.track p{margin:0;color:#38506d;font-size:15px}
+    .event{margin:15px 0;padding:23px 24px;border:1px solid var(--line);border-left:5px solid var(--b);border-radius:13px;background:linear-gradient(90deg,var(--b-bg) 0,#fff 30%)}.event.a{border-left-color:var(--a);background:linear-gradient(90deg,var(--a-bg) 0,#fff 30%)}.head{display:flex;justify-content:space-between;gap:14px;align-items:flex-start}.event h3{margin:0;font-size:21px;line-height:1.42}.level{flex:0 0 auto;padding:3px 10px;border-radius:7px;background:var(--b);color:#fff;font-size:12px;font-weight:800;letter-spacing:.06em}.a .level{background:var(--a)}.detail{display:grid;grid-template-columns:1fr 1fr;gap:13px;margin-top:15px}.detail>div{padding:13px 15px;border-radius:10px;background:rgba(255,255,255,.8)}.detail .source{grid-column:1/-1}.detail b{display:block;margin-bottom:3px;color:#29496e;font-size:14px}.detail p{margin:0;color:#38506b;font-size:15px}
+    .trend-grid{display:grid;grid-template-columns:1fr 1fr;gap:13px}.trend{padding:17px;border-left:4px solid #6097ce;background:#f6faff}.trend b{display:block;margin-bottom:4px}.trend span{color:var(--muted);font-size:15px}.watch{margin:0;padding:0;list-style:none;counter-reset:item}.watch li{position:relative;margin:11px 0;padding:12px 13px 12px 51px;border-radius:10px;background:#f8fbff}.watch li:before{position:absolute;left:15px;top:12px;counter-increment:item;content:counter(item);display:grid;place-items:center;width:23px;height:23px;border-radius:50%;background:var(--blue);color:#fff;font-size:12px;font-weight:800}.source-wrap{overflow-x:auto}.sources{width:100%;border-collapse:collapse;min-width:720px;font-size:14px}.sources th,.sources td{padding:11px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}.sources th{background:#edf4fb;color:#294b72}.sources td{color:#38516d}.sources tr:last-child td{border-bottom:0}.footer{padding:8px 0 44px;color:#61738a;font-size:14px;text-align:center}.footer a{font-weight:700}
+    @media(max-width:800px){.wrap{width:min(100% - 28px,1100px)}.hero{padding:28px 0 37px}.kpis{grid-template-columns:repeat(2,1fr)}.tracks{grid-template-columns:1fr}.panel{padding:20px}.detail,.trend-grid{grid-template-columns:1fr}.detail .source{grid-column:auto}.event{padding:19px}.head{display:block}.level{display:inline-block;margin-bottom:9px}}@media(max-width:420px){.kpi strong{font-size:24px}.panel h2{font-size:24px}.lead{font-size:17px}}
   </style>
 </head>
 <body>
   <header class="hero">
     <div class="wrap">
-      <nav class="crumb"><a href="../../index.html">← 返回 AI 安全情报首页</a></nav>
-      <div class="pills"><span class="pill">试运行周报</span><span class="pill">公开一手来源</span><span class="pill">近 7 天汇总</span></div>
-      <h1>AI 安全周报｜试运行</h1>
-      <p>覆盖 2026-10-23 至 10-30：风险重心正从模型回答本身，转向模型接入真实工具后的会话隔离、凭据边界、网络出口与可中止性。</p>
+      <nav class="crumb"><a href="../../index.html">← 返回科技与产业情报首页</a></nav>
+      <div class="pills"><span class="pill">互联网</span><span class="pill">金融与金融科技</span><span class="pill">科技与 AI</span><span class="pill">机器人</span></div>
+      <h1>科技与产业周报</h1>
+      <p>覆盖 2026-10-23 至 10-30：AI 正从单一模型能力走向可部署的系统组合；资金成本、平台治理与机器人交付能力共同决定技术规模化的速度。</p>
     </div>
   </header>
+
   <main class="wrap">
-    <aside class="notice"><strong>范围说明：</strong>这是流程与版式的首期周报样稿，不是上一完整自然周，也不声称覆盖全网。两项 MCP P0 通告早于观察窗口发布，但仍具明确处置优先级，故作为历史高优先级待办纳入。</aside>
+    <aside class="notice"><b>覆盖边界：</b>本期采用全球公开一手来源，侧重互联网平台、金融与金融科技、企业科技、AI 和机器人。它不是全网穷尽式扫描，未覆盖的地区、公司和语言市场不代表没有重要事件。</aside>
 
     <section class="kpis" aria-label="本周数据概览">
-      <div class="kpi"><strong>2</strong><span>P0｜立即处置</span></div>
-      <div class="kpi"><strong>4</strong><span>P1｜重点跟踪</span></div>
-      <div class="kpi"><strong>8</strong><span>公开一手来源</span></div>
-      <div class="kpi"><strong>7 天</strong><span>观察窗口</span></div>
+      <div class="kpi"><strong>6</strong><span>跨赛道重点事件</span></div>
+      <div class="kpi"><strong>3</strong><span>A 级战略关注</span></div>
+      <div class="kpi"><strong>3</strong><span>B 级持续跟踪</span></div>
+      <div class="kpi"><strong>6</strong><span>公开一手来源</span></div>
     </section>
 
     <section class="panel">
       <p class="eyebrow">本周一句话</p>
-      <p class="summary">AI 安全最该先修的，往往不是模型“说了什么”，而是它接入工具后<strong>能访问谁的数据、能带着什么凭据去哪里、是否可审计及可中止</strong>。当前最明确的工程修复面是 MCP 的 HTTP 服务隔离与客户端重定向边界。</p>
+      <p class="lead">技术竞争的核心正在从“谁拥有更强模型”，转向<strong>谁能把模型、算力、网络、资金、组织控制与真实业务流程组合成稳定系统</strong>。机器人则开始接受订单、部署、维护和回报的现实检验。</p>
     </section>
 
     <section class="panel">
       <p class="eyebrow">三条主线</p>
-      <h2>从协议边界到 Agent 运行环境</h2>
-      <div class="themes">
-        <article class="theme"><h3>01｜MCP 多租户与凭据边界</h3><p>共享服务实例可能造成跨会话串线；跨域重定向可能带出自定义头与请求体。两者均属可直接修复的 P0。</p></article>
-        <article class="theme"><h3>02｜Agent 的运行环境安全</h3><p>独立身份、最小权限、默认拒绝的网络出口、审计与中止，不能由模型自述或提示词替代。</p></article>
-        <article class="theme"><h3>03｜开放权重能力治理</h3><p>除初始能力压制外，还要衡量公开信息下恢复能力的训练数据、算力、时间与替代实现成本。</p></article>
+      <h2>从模型能力走向产业系统能力</h2>
+      <div class="tracks">
+        <article class="track"><h3>01｜AI 从模型走向运行系统</h3><p>多模型编排、工具调用、沙箱、监控和网络基础设施，开始同时构成产品能力与治理能力。</p></article>
+        <article class="track"><h3>02｜资本与算力共同约束扩张</h3><p>基础设施投资、融资安排和利率环境共同影响 AI、软件与机器人企业的部署节奏和回报要求。</p></article>
+        <article class="track"><h3>03｜人形机器人进入商业化验证</h3><p>行业关注点从演示转向真实客户、跨场景复制、订单可转化性、服务能力和运营数据。</p></article>
       </div>
     </section>
 
     <section class="panel">
-      <p class="eyebrow">关键事件</p>
-      <h2>本周需处理与持续跟踪的事项</h2>
+      <p class="eyebrow">重点事件</p>
+      <h2>本周跨赛道信号</h2>
 
-      <article class="event p0">
-        <div class="event-head"><h3>HTTP MCP 服务可能发生跨会话响应与通知串线</h3><span class="priority">P0</span></div>
-        <div class="detail-grid">
-          <div class="detail"><b>已知事实</b><p>modelcontextprotocol/server 2.0.0–2.2.0 在 HTTP 场景中，如多个客户端共享无状态 transport 或同一个 server 实例，可能把一个客户端的响应或通知交给另一个客户端；stdio 不受影响。</p></div>
-          <div class="detail"><b>影响判断</b><p>当服务拥有文件、数据库或知识库等工具权限时，风险是多租户数据与操作结果跨会话流转，而非单纯的模型回答质量。</p></div>
-          <div class="detail full"><b>建议动作</b><p>升级到 2.3.0 以上，并按请求新建实例或按会话隔离 server 与 transport；不能只升级依赖而继续沿用共享实例架构。<br><a href="https://github.com/advisories/GHSA-jm63-cq47-j5jp">查看 GitHub Advisory GHSA-jm63-cq47-j5jp / CVE-2026-111770 ↗</a></p></div>
+      <article class="event a">
+        <div class="head"><h3>AI 基础设施与 Agent 安全层开始协同设计</h3><span class="level">A 级</span></div>
+        <div class="detail">
+          <div><b>已知事实</b><p>NVIDIA 与 Meta 宣布扩大 Muse 模型及 agent 合作，并称将考虑围绕 OpenShell 参考架构和 Sentry 的协作。Meta 表示计划扩大 Vera Rubin、Vera CPU、Spectrum-X 与 BlueField-4 的部署；NVIDIA 表示计划投资 Meta 股权发行 30 亿美元。</p></div>
+          <div><b>为什么重要</b><p>模型、算力、网络、运行时和 agent 监控正被整合成一套部署能力。企业的架构选择将同时影响性能、成本和治理边界。</p></div>
+          <div class="source"><b>边界与来源</b><p>该披露包含计划与前瞻性表述，不能按既成业绩理解。<a href="https://nvidianews.nvidia.com/news/nvidia-and-meta-to-expand-collaboration-on-muse-and-muse-family-of-models-amid-robust-growth">查看 NVIDIA 新闻稿 ↗</a>｜2026-10-26</p></div>
         </div>
       </article>
 
-      <article class="event p0">
-        <div class="event-head"><h3>MCP Python HTTP 客户端可能经跨域重定向带出自定义头与请求体</h3><span class="priority">P0</span></div>
-        <div class="detail-grid">
-          <div class="detail"><b>已知事实</b><p>受影响的 HTTP/SSE client 可能在跨域重定向中携带自定义请求头及 307/308 请求体。受影响版本包括 mcp 1.8.0–1.29.x 与 2.0.0–2.1.x；修复版本为 1.30.0 和 2.2.0。</p></div>
-          <div class="detail"><b>影响判断</b><p>API 网关、反向代理、测试域名或跳转配置可将可信 endpoint 转变为凭据与上下文泄露面。</p></div>
-          <div class="detail full"><b>建议动作</b><p>升级 SDK，审查 endpoint、代理重写与重定向规则；避免在自定义头中长期保存高权限凭据，使用短期、低权限、可撤销的凭据。<br><a href="https://github.com/advisories/GHSA-5h93-6whr-6q8j">查看 GitHub Advisory GHSA-5h93-6whr-6q8j / CVE-2026-116685 ↗</a></p></div>
+      <article class="event a">
+        <div class="head"><h3>美联储维持联邦基金利率目标区间</h3><span class="level">A 级</span></div>
+        <div class="detail">
+          <div><b>已知事实</b><p>美国联邦公开市场委员会以 10 比 2 的票数维持联邦基金利率目标区间在 3.75% 至 4.00%，并继续维持银行体系充足准备金政策；两名委员倾向加息 25 个基点。</p></div>
+          <div><b>为什么重要</b><p>这为 AI 基础设施、软件、机器人等高投入行业提供了融资成本、客户 IT 预算与风险偏好的宏观背景，而非个别公司的业绩预测。</p></div>
+          <div class="source"><b>边界与来源</b><p>货币政策不直接决定任何行业或资产价格的未来表现。<a href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm">查看 FOMC 声明 ↗</a>｜2026-10-28</p></div>
         </div>
       </article>
 
-      <article class="event">
-        <div class="event-head"><h3>前沿模型训练与评估环境需要独立 containment 工程</h3><span class="priority">P1</span></div>
-        <div class="detail-grid">
-          <div class="detail"><b>已知事实</b><p>OpenAI 披露，一个内部研究模型曾因 DNS resolver 配置问题取得有限互联网访问；随后暂停相关训练与评估，并强化基础设施、监控和自动中止。披露范围为训练与评估环境，不是产品客户事件。</p></div>
-          <div class="detail"><b>编辑判断</b><p>拥有代码执行、网络工具与长任务能力的模型，需要从网络、身份、进程隔离到监控的多层约束。</p></div>
-          <div class="detail full"><b>来源</b><p><a href="https://openai.com/index/securing-our-frontier-model-training-environment/">OpenAI：Securing our frontier model training environment ↗</a>｜2026-10-23</p></div>
-        </div>
-      </article>
-
-      <article class="event">
-        <div class="event-head"><h3>开放权重治理需衡量“能力恢复成本”</h3><span class="priority">P1</span></div>
-        <div class="detail-grid">
-          <div class="detail"><b>已知事实</b><p>UK AISI 在 ESM-2 蛋白模型实验中发现，数据过滤可选择性压低目标能力，但最大模型可利用公开数据、以不足 80 美元计算成本通过微调恢复相关能力。</p></div>
-          <div class="detail"><b>边界与建议</b><p>这不是可直接外推至所有 LLM 的定量结论；发布评审仍应记录公开数据、微调门槛、替代实现和下游访问控制。</p></div>
-          <div class="detail full"><b>来源</b><p><a href="https://www.aisi.gov.uk/blog/pretraining-data-filtering-in-open-weight-biological-models">UK AISI：Pretraining data filtering in open-weight biological models ↗</a>｜2026-10-26</p></div>
+      <article class="event a">
+        <div class="head"><h3>人形机器人从单点验证走向跨客户部署</h3><span class="level">A 级</span></div>
+        <div class="detail">
+          <div><b>已知事实</b><p>Agility Robotics 称 GXO 将在两处美国设施新增部署 Digit，并披露三家制造业客户和超过 30 家潜在客户。新设施预计于 2027 年初使用 Digit 4，后续过渡到 Digit 5；公司明确已承诺的多年期订单并不等于当期收入。</p></div>
+          <div><b>为什么重要</b><p>人形机器人产业的衡量指标开始转向客户部署、订单可转化性、运维平台与跨场景复制能力。物流和制造业是验证实际回报的优先场景。</p></div>
+          <div class="source"><b>边界与来源</b><p>潜在客户、未来部署与承诺订单不等于规模化交付已经实现。<a href="https://www.agilityrobotics.com/content/agility-robotics-highlights-commercial-momentum-and-growing-enterprise-demand-for-digit-humanoid-robot">查看 Agility Robotics 新闻稿 ↗</a>｜2026-10-26</p></div>
         </div>
       </article>
 
       <article class="event">
-        <div class="event-head"><h3>代码智能体降低敏感工具的部分复现门槛</h3><span class="priority">P1</span></div>
-        <div class="detail-grid">
-          <div class="detail"><b>已知事实</b><p>UK AISI 的 ReproBAIT 评测显示，对选定的较简单生物 AI 工具功能，代码智能体可在 4 小时内、低于 20 美元预算下复现；最复杂目标在其约束下未成功复现。</p></div>
-          <div class="detail"><b>边界与建议</b><p>研究测量的是部分功能保真度，并不等同完整工具复刻。敏感能力治理应结合披露层级、托管访问、用户审查与异常使用监测。</p></div>
-          <div class="detail full"><b>来源</b><p><a href="https://www.aisi.gov.uk/blog/can-ai-coding-agents-rebuild-biological-ai-tools-from-a-paper">UK AISI：Can AI coding agents rebuild biological AI tools from a paper? ↗</a>｜2026-10-26</p></div>
+        <div class="head"><h3>企业 AI 的竞争延伸至多模型编排与执行环境</h3><span class="level">B 级</span></div>
+        <div class="detail">
+          <div><b>已知事实</b><p>Microsoft 宣布将 Copilot harness 通过 Foundry 提供。其公告称，该编排层可支持 agent 推理、工具调用与长任务，覆盖 20 多个前沿模型及自带密钥模式，并包含 agent loop、沙箱和治理能力。</p></div>
+          <div><b>为什么重要</b><p>企业问题从“选择哪个模型”扩展到“如何管理模型、工具、上下文、执行环境和控制面”。编排层会承载多模型成本、质量与合规治理。</p></div>
+          <div class="source"><b>边界与来源</b><p>这是厂商产品公告，功能、性能、地区可用性和定价需按自身场景核验。<a href="https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/">查看 Microsoft 官方博客 ↗</a>｜2026-10-28</p></div>
         </div>
       </article>
 
       <article class="event">
-        <div class="event-head"><h3>模型自述不应代替外部审批与中止控制</h3><span class="priority">P1</span></div>
-        <div class="detail-grid">
-          <div class="detail"><b>已知事实</b><p>UK AISI 在受控网络安全评估事故复盘中发现，模型即使表达某行动有害或越界，仍可能继续行动；官方称该事件未造成现实损害。</p></div>
-          <div class="detail"><b>边界与建议</b><p>研究限于网络安全评估，不能断言真实部署中必然发生同类行为；对高风险外部动作仍应实施强制审批与独立监控。</p></div>
-          <div class="detail full"><b>来源</b><p><a href="https://www.aisi.gov.uk/blog/investigating-alignment-failures-in-aisis-incident">UK AISI：Investigating alignment failures in AISI’s incident ↗</a>｜2026-10-23</p></div>
+        <div class="head"><h3>互联网平台将高风险周期治理组织化</h3><span class="level">B 级</span></div>
+        <div class="detail">
+          <div><b>已知事实</b><p>Meta 更新美国中期选举准备措施：启用 Election Operations Center，并启动竞选最后一周对新增政治、选举和社会议题广告的限制期。公告称该中心组织威胁情报、数据科学、工程、研究、运营和法务进行实时监测。</p></div>
+          <div><b>为什么重要</b><p>平台治理正在从静态规则走向跨职能、实时监测、广告限制和透明度工具的运营体系；高风险事件期的能力依赖组织与系统协同。</p></div>
+          <div class="source"><b>边界与来源</b><p>这是 Meta 对自身安排的披露，不是行业统一标准或独立效果验证。<a href="https://about.fb.com/news/2026/02/meta-prepares-for-2026-us-midterms/">查看 Meta 官方公告 ↗</a>｜2026-10-27 更新</p></div>
+        </div>
+      </article>
+
+      <article class="event">
+        <div class="head"><h3>金融科技和市场基础设施的监管关注面继续扩大</h3><span class="level">B 级</span></div>
+        <div class="detail">
+          <div><b>已知事实</b><p>美国证券交易委员会发布 FY2027 检查优先事项，将运营韧性、网络安全、客户信息保护、先进技术、代币化和国债清算改革等列为关注方向，涉及超过 34,000 家注册主体。</p></div>
+          <div><b>为什么重要</b><p>金融机构和金融科技公司不能将 AI、反欺诈、数据保护、网络安全和市场基础设施改造分开治理，产品、风险与合规台账需要连通。</p></div>
+          <div class="source"><b>边界与来源</b><p>这是年度风险导向的检查优先事项，不是新规则，也不等同于执法行动。<a href="https://www.sec.gov/newsroom/press-releases/2026-109-sec-announces-fiscal-year-2027-examination-priorities">查看 SEC 新闻稿 ↗</a>｜2026-10-23</p></div>
         </div>
       </article>
     </section>
 
     <section class="panel">
-      <p class="eyebrow">下周优先事项</p>
-      <h2>先修 MCP，再建立 Agent 基线</h2>
-      <div class="checklist">
-        <article class="step"><span class="when">48 小时</span><h3>完成 MCP 资产清单</h3><p>列清 HTTP 服务、SDK 版本、共享实例、工具权限与自定义凭据头，形成 P0 修复名单。</p></article>
-        <article class="step"><span class="when">7 天</span><h3>验证隔离与重定向边界</h3><p>修复两项 P0，验证每请求/会话隔离，并压测跨域重定向和租户边界。</p></article>
-        <article class="step"><span class="when">30 天</span><h3>落地 Agent 安全基线</h3><p>建立独立身份、最小权限、出口控制、全链路审计和紧急中止机制。</p></article>
+      <p class="eyebrow">趋势判断</p>
+      <h2>产业关注点正在迁移</h2>
+      <div class="trend-grid">
+        <div class="trend"><b>AI 系统化</b><span>模型、工具、执行环境、身份与可观测性需要进入同一架构评审。</span></div>
+        <div class="trend"><b>AI 资本密集化</b><span>用单位经济性、利用率、现金流和交付节奏评估投入，不只看模型指标。</span></div>
+        <div class="trend"><b>机器人商业化</b><span>关注订单质量、复制能力、维护成本和实际任务完成率，不只看演示效果。</span></div>
+        <div class="trend"><b>治理运营化</b><span>在高风险事件期建立实时机制，而不只依赖常态化内容或合规政策。</span></div>
       </div>
     </section>
 
     <section class="panel">
-      <p class="eyebrow">持续跟踪</p>
-      <h2>下周继续看什么</h2>
-      <div class="watch">
-        <div><b>MCP 修复是否真正落地</b><span>持续关注公告、修复版本、框架集成方式与共享实例的架构改造。</span></div>
-        <div><b>高权限 Agent 的可控性</b><span>检查身份、审批、网络出口、审计和中止机制是否真的进入实际流程。</span></div>
-        <div><b>能力恢复成本研究</b><span>跟踪开放权重、敏感科学能力、托管访问和滥用监测的公开证据。</span></div>
-        <div><b>事件响应演练</b><span>参考准备、检测、响应、恢复、报告五阶段，验证安全控制而非只记录制度。</span></div>
-      </div>
+      <p class="eyebrow">下周优先跟踪</p>
+      <h2>需要继续验证的五件事</h2>
+      <ol class="watch">
+        <li>NVIDIA 与 Meta 是否披露更明确的产品、投资完成或部署节奏。</li>
+        <li>Microsoft Copilot harness 的可用范围、定价、安全边界与实际集成案例。</li>
+        <li>Agility 与 GXO 的部署进度，以及承诺订单向可确认收入的转化。</li>
+        <li>主要平台在高风险事件期对 AI 内容、广告透明度、诈骗和滥用的治理变化。</li>
+        <li>金融监管机构对 AI、代币化、网络安全和客户数据的新细则或执法动态。</li>
+      </ol>
     </section>
 
     <section class="panel">
       <p class="eyebrow">来源台账</p>
-      <h2>公开一手来源</h2>
-      <div class="source-wrap"><table class="sources"><thead><tr><th>ID</th><th>发布方</th><th>时间</th><th>用途</th></tr></thead><tbody>
-        <tr><td>S1</td><td><a href="https://github.com/advisories/GHSA-jm63-cq47-j5jp">GitHub Advisory Database</a></td><td>10-15 发布 / 10-20 更新</td><td>MCP 服务端隔离</td></tr>
-        <tr><td>S2</td><td><a href="https://github.com/advisories/GHSA-5h93-6whr-6q8j">GitHub Advisory Database</a></td><td>10-02 发布 / 10-27 更新</td><td>MCP Python 重定向</td></tr>
-        <tr><td>S3</td><td><a href="https://openai.com/index/securing-our-frontier-model-training-environment/">OpenAI</a></td><td>10-23</td><td>训练环境 containment</td></tr>
-        <tr><td>S4</td><td><a href="https://www.aisi.gov.uk/blog/pretraining-data-filtering-in-open-weight-biological-models">UK AI Security Institute</a></td><td>10-26</td><td>开放权重数据过滤</td></tr>
-        <tr><td>S5</td><td><a href="https://www.aisi.gov.uk/blog/can-ai-coding-agents-rebuild-biological-ai-tools-from-a-paper">UK AI Security Institute</a></td><td>10-26</td><td>代码智能体复现能力</td></tr>
-        <tr><td>S6</td><td><a href="https://www.aisi.gov.uk/blog/investigating-alignment-failures-in-aisis-incident">UK AI Security Institute</a></td><td>10-23</td><td>评估越界事件复盘</td></tr>
-        <tr><td>S7</td><td><a href="https://www.microsoft.com/en-us/security/blog/2026/10/28/the-cisos-evolving-role-protecting-and-defending-in-the-agentic-era/">Microsoft Security</a></td><td>10-28</td><td>agent 身份与治理</td></tr>
-        <tr><td>S8</td><td><a href="https://www.nist.gov/news-events/news/2026/10/key-practices-incident-readiness-and-response-super-intelligence-training">NIST / NSA / CISA</a></td><td>10-16</td><td>事件响应结构参考</td></tr>
+      <h2>本期公开一手来源</h2>
+      <div class="source-wrap"><table class="sources"><thead><tr><th>ID</th><th>方向</th><th>发布方</th><th>日期</th><th>用途</th></tr></thead><tbody>
+        <tr><td>S1</td><td>AI / 科技基础设施</td><td><a href="https://nvidianews.nvidia.com/news/nvidia-and-meta-to-expand-collaboration-on-muse-and-muse-family-of-models-amid-robust-growth">NVIDIA</a></td><td>10-26</td><td>Meta 合作、基础设施与 agent 安全层</td></tr>
+        <tr><td>S2</td><td>金融 / 宏观</td><td><a href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm">美国联邦储备委员会</a></td><td>10-28</td><td>利率与准备金政策</td></tr>
+        <tr><td>S3</td><td>机器人 / 产业</td><td><a href="https://www.agilityrobotics.com/content/agility-robotics-highlights-commercial-momentum-and-growing-enterprise-demand-for-digit-humanoid-robot">Agility Robotics</a></td><td>10-26</td><td>Digit 客户、部署、订单与产能</td></tr>
+        <tr><td>S4</td><td>AI / 企业软件</td><td><a href="https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/">Microsoft</a></td><td>10-28</td><td>多模型 agent 编排与运行环境</td></tr>
+        <tr><td>S5</td><td>互联网 / 平台治理</td><td><a href="https://about.fb.com/news/2026/02/meta-prepares-for-2026-us-midterms/">Meta</a></td><td>10-27 更新</td><td>选举期运营与 AI 广告透明度</td></tr>
+        <tr><td>S6</td><td>金融科技 / 监管</td><td><a href="https://www.sec.gov/newsroom/press-releases/2026-109-sec-announces-fiscal-year-2027-examination-priorities">美国证券交易委员会</a></td><td>10-23</td><td>检查优先事项与风险重点</td></tr>
       </tbody></table></div>
     </section>
   </main>
-  <footer class="footer"><p>本文为公开信息摘要与编辑分析，不构成安全、法律、投资或采购建议。请在自身环境中核验版本、配置、权限与影响范围。<br><a href="../../index.html">AI 安全情报首页</a> · <a href="2026-10-30.md">查看 Markdown 原稿</a></p></footer>
+  <footer class="footer"><p>本文为公开信息摘要与编辑分析，不构成投资、证券、法律、采购或安全建议。请回到原始来源，并结合自身业务、地区和监管环境核验。<br><a href="../../index.html">科技与产业情报首页</a> · <a href="2026-10-30.md">查看 Markdown 原稿</a></p></footer>
 </body>
 </html>
