@@ -22,6 +22,8 @@ reports/
 
 ## 阅读入口
 
+- [科技与产业 HTML 周报（2026-11-09）](./reports/weekly/2026-11-09.html)
+- [科技与产业 Markdown 周报（2026-11-09）](./reports/weekly/2026-11-09.md)
 - [科技与产业 HTML 周报（2026-11-02）](./reports/weekly/2026-11-02.html)
 - [科技与产业 Markdown 周报（2026-11-02）](./reports/weekly/2026-11-02.md)
 - [科技与产业 HTML 周报（2026-10-30）](./reports/weekly/2026-10-30.html)
